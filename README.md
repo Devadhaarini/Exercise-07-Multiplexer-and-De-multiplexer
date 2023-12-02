@@ -1,5 +1,7 @@
 # Exercise-07-Multiplexer-and-De-multiplexer
 ### AIM: To implement 4 X1 multiplexer and 1X4 de multiplexer using verilog and validate its outputs
+### Developed by: Devadhaarini.D
+### Register Number: 23006001
 ### HARDWARE REQUIRED:  – PC, Cyclone II , USB flasher
 ### SOFTWARE REQUIRED:   Quartus prime
 ### THEORY 
@@ -47,42 +49,57 @@ If the control input changes to AB = 10, then all the gates are restricted excep
  
  
 ### Procedure
-/* write all the steps invloved */
 
+1.Start the module using module projname().
 
+2.Declare the inputs and outputs along with the select lines according to the multiplexer and demultiplexer.
+
+3.Use wire to assign intermediate outputs.
+
+4.Use and,or and not gates to get the desired output.
+
+5.End the module.
+
+6.Generate RTL realization and timing diagrams.
 
 ### PROGRAM 
-/*
-Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+Multiplexer:
 
+![Screenshot 2023-12-02 164001](https://github.com/Devadhaarini/Exercise-07-Multiplexer-and-De-multiplexer/assets/145796552/5103d9f8-68f7-4a97-99ad-e9311358c6cb)
 
+Demultiplexer:
 
-
-
+![Screenshot 2023-12-02 164020](https://github.com/Devadhaarini/Exercise-07-Multiplexer-and-De-multiplexer/assets/145796552/0c7ad8bd-0fd8-46d8-af6e-8f15abed1be9)
 
 ### RTL LOGIC  
+Multiplexer:
 
+![image](https://github.com/Devadhaarini/Exercise-07-Multiplexer-and-De-multiplexer/assets/145796552/b9da9bb4-6fc4-48c6-ae95-a5c1208c0528)
 
+Demultiplexer:
 
-
-
-
-
+![image](https://github.com/Devadhaarini/Exercise-07-Multiplexer-and-De-multiplexer/assets/145796552/2c36212d-ce4a-4915-bf1b-00d1fd53be6d)
 
 ### TIMING DIGRAMS  
+Multiplexer:
 
+![image](https://github.com/Devadhaarini/Exercise-07-Multiplexer-and-De-multiplexer/assets/145796552/ead09553-b8b6-462f-9f44-23bc2eea8d9b)
+![image](https://github.com/Devadhaarini/Exercise-07-Multiplexer-and-De-multiplexer/assets/145796552/ca211564-5bd9-4c5e-9f55-a2301df716a3)
+![image](https://github.com/Devadhaarini/Exercise-07-Multiplexer-and-De-multiplexer/assets/145796552/901bf331-4f55-4e95-84b2-49497f990134)
+![image](https://github.com/Devadhaarini/Exercise-07-Multiplexer-and-De-multiplexer/assets/145796552/2e53a337-e582-4787-aa45-b146bb9b46cc)
 
+Demultiplexer:
 
-
+![image](https://github.com/Devadhaarini/Exercise-07-Multiplexer-and-De-multiplexer/assets/145796552/4bfbab04-7c22-42a1-a0e1-3f9b3553bf5a)
 
 ### TRUTH TABLE 
+Multiplexer:
 
+![image](https://github.com/Devadhaarini/Exercise-07-Multiplexer-and-De-multiplexer/assets/145796552/ec7b3ed0-4dc8-47e0-9557-b0732a7038a1)
 
+Demultiplexer:
 
-
-
+![image](https://github.com/Devadhaarini/Exercise-07-Multiplexer-and-De-multiplexer/assets/145796552/a82a0aac-fcab-4ace-a08e-d617571f871b)
 
 ### RESULTS 
+Thus the program to design a 4x1 multiplexer and 1x4 demultiplexer is done successful.
